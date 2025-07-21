@@ -1,0 +1,77 @@
+/* src/components/Calendar.css */
+.calendar {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.header button {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.days-row, .week {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-name {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.cell {
+  flex: 1;
+  min-height: 100px;
+  border: 1px solid #eee;
+  padding: 6px;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #f8f9fa;
+}
+
+.disabled {
+  color: #ccc;
+  background-color: #f5f5f5;
+}
+
+.today {
+  border: 2px solid #0d6efd;
+  border-radius: 8px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.event {
+  font-size: 12px;
+  margin-top: 5px;
+  background: #d1e7dd;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
