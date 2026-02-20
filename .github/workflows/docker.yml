@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: YOUR_DOCKERHUB_USERNAME/custom-event-calendar:latest
+          tags: shikha9/custom-event-calendar:latest
