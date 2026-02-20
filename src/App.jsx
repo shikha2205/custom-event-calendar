@@ -8,6 +8,7 @@ export default function App() {
       <main className="min-h-screen bg-gray-100 p-6">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl font-bold mb-6 text-center text-blue-700">📆 Event Calendar</h1>
+          <h5 className="text-4xl font-bold mb-6 text-center text-blue-700">Save your events</h5>
           <Calendar />
         </div>
       </main>

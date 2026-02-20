@@ -25,3 +25,5 @@ jobs:
           context: .
           push: true
           tags: shikha9/custom-event-calendar:latest
+      - name: Trigger Render Deploy
+        run: curl ${{ secrets.RENDER_DEPLOY_HOOK }}  
